@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Animal Finder",
+    "slug": "animal-finder",
+    "platforms": ["android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.sevenggame.animalfinder",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "api_key"
+        }
+      }
+    }
+  }
+}
